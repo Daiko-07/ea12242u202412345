@@ -1,0 +1,62 @@
+{
+  "cellars": [
+    {
+      "id": 1,
+      "name": "Red Wine Cellar",
+      "wineType": "reds",
+      "capacity": 100
+    },
+    {
+      "id": 2,
+      "name": "White Wine Cellar",
+      "wineType": "whites",
+      "capacity": 80
+    }
+  ],
+  "storage-items": [
+    {
+      "id": 1,
+      "cellarId": 1,
+      "wineId": 101,
+      "quantity": 15
+    },
+    {
+      "id": 2,
+      "cellarId": 1,
+      "wineId": 102,
+      "quantity": 20
+    },
+    {
+      "id": 3,
+      "cellarId": 2,
+      "wineId": 103,
+      "quantity": 20
+    },
+    {
+      "cellarId": 1,
+      "quantity": 4,
+      "date": "2026-10-12",
+      "id": 4
+    },
+    {
+      "cellarId": 1,
+      "quantity": 10,
+      "date": "2026-10-12",
+      "id": 5
+    },
+    {
+      "cellarId": 1,
+      "quantity": 5,
+      "date": "2026-10-12",
+      "id": 6
+    },
+    {
+      "cellarId": 1,
+      "wineId": 5,
+      "wineName": "Wraith Cabernet Sauvignon 2013",
+      "quantity": 5,
+      "date": "2026-10-12",
+      "id": 7
+    }
+  ]
+}
